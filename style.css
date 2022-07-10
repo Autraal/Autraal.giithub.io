@@ -222,7 +222,8 @@ top: 0;
 /* Hero section  styling */
 #hero{
     /* background-image: url(./img/globe.gif); */
-    background-image: url(./img/backgrounds.gif);
+    /* background-image: url(./img/backgrounds.gif); */
+    background-image: url(./img/cartoon-2716788_1280.jpg);
     /* filter: drop-shadow(8px 0px 10px gray); */
     background-size:cover;
     background-position: top center;
@@ -1018,7 +1019,8 @@ flex-direction: column;
 
     .whole-body{
         width: 100%;
-        background-color:#8fd3f4;
+        /* background-color:#8fd3f4; */
+        background-image: radial-gradient(transparent,#8fd3f4,rgba(31,30,30,0.021));
     }
 
 
