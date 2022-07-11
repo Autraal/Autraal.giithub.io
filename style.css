@@ -151,7 +151,7 @@ align-items: center;
 justify-content: center;
     z-index: 100;
     cursor: pointer;
-    margin-right: -16px;
+    margin-right: -12px;
 }
 
 
@@ -219,6 +219,9 @@ top: 0;
 /*End of header */
 
 
+
+
+
 /* Hero section  styling */
 #hero{
     /* background-image: url(./img/globe.gif); */
@@ -228,6 +231,7 @@ top: 0;
     background-size:cover;
     background-position: top center;
     position: relative;
+    width: 100%;
 }
 
 

@@ -17,3 +17,10 @@ menuItem.forEach(item=>{
         mobileMenu.classList.toggle('active');  
     })
 })
+
+
+
+AOS.init({
+    duration: 2100,
+  })
+  
