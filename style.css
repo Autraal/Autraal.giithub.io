@@ -237,8 +237,7 @@ top: 0;
 
 
 #hero .hero{
-    animation: shake 2s;
-    animation-iteration-count: infinite;
+    
     max-width: 1200px;
     margin:0 auto;
     padding: 0 50px;
