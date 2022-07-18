@@ -42,6 +42,34 @@ a{
 
 /* header */
 
+.serv-back{
+    background-image: url(./img/51363.jpg);
+
+}
+
+
+
+.half-background{
+    /* width: 100%; */
+    /* background-color:#8fd3f4; */
+    background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg);
+    /* background-image: radial-gradient(transparent,#8fd3f4,rgba(31,30,30,0.021)); */
+}
+
+
+.con-bout{
+    background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg);
+}
+
+/* 
+.serv-back{
+    background-image: url(./img/website-background-design-guide-768x492.png);
+
+} */
+
+
+
+
 
 #header {
 position: fixed;
@@ -226,7 +254,7 @@ top: 0;
 #hero{
     /* background-image: url(./img/globe.gif); */
     /* background-image: url(./img/backgrounds.gif); */
-    background-image: url(./img/cartoon-2716788_1280.jpg);
+    background-image: url(./img/pexels-pixabay-531880.jpg);
     /* filter: drop-shadow(8px 0px 10px gray); */
     background-size:cover;
     background-position: top center;
@@ -421,6 +449,7 @@ background-image: url(./img/newbackin.gif);
 filter: brightness(130%);
 background-size: cover;
 margin: 10px 5%;
+border-radius: 35px;
 position: relative;
 z-index: 1;
 transform: scale(0.9);
@@ -750,10 +779,12 @@ z-index: -1;
 
 /* contact section */
 
+
 #contact .contact{
 flex-direction:column;
 max-width: 1200px;
 margin: 0 auto;
+
 }
 
 
@@ -1023,7 +1054,8 @@ flex-direction: column;
     .whole-body{
         width: 100%;
         /* background-color:#8fd3f4; */
-        background-image: radial-gradient(transparent,#8fd3f4,rgba(31,30,30,0.021));
+        background-image: url(./img/pexels-pixabay-531880.jpg);
+        /* background-image: radial-gradient(transparent,#8fd3f4,rgba(31,30,30,0.021)); */
     }
 
 
