@@ -649,7 +649,7 @@ width: 70px;
 
 .project-img img{
     width: 100%;
-    height: 250px;
+    height: 220px;
     flex-basis: 50%;
     filter: contrast(30%);
 transition: 0.25s ease transform;
