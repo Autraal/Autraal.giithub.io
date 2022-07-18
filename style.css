@@ -534,6 +534,7 @@ width: 70px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 #projects .project-item {
@@ -545,7 +546,9 @@ width: 70px;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 30px;
-    box-shadow: -9px 0px 4px #8fd3f4, 9px 0px 0px #8fd3f4;
+    box-shadow: 1px 7px 5px 9px rgba(20,20,20,0.4);
+        /* box-shadow: -9px 0px 4px #8fd3f4, 9px 0px 0px #8fd3f4; */
+    height: 50%;
 
 }
 
@@ -567,7 +570,7 @@ width: 70px;
 #projects .project-info{
     padding: 30px;
     flex-basis: 50%;
-    background-color:#8fd3f4;
+    background-color:black;
     /* filter: drop-shadow(8px 0 10px rgb(0, 161, 112)); */
   font-size: 14px;
   font-weight: 200px;
