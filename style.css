@@ -1059,6 +1059,12 @@ flex-direction: column;
     }
 
 
+
+
+    .serv-back, .half-background, .con-bout{
+        background-image: url(./img/pexels-pixabay-531880.jpg);
+
+    }
 .section-title span{
     color: white;
 }
