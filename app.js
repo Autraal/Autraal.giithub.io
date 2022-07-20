@@ -1,3 +1,6 @@
+
+
+// hambrger 
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobileMenu= document.querySelector('.header .nav-bar .nav-list ul');
 const menuItem= document.querySelectorAll('.header .nav-bar .nav-list ul li a');
@@ -11,21 +14,22 @@ hamburger.addEventListener('click', ()=>{
 
 
 
-menuItem.forEach(item=>{
+menuItem.forEach(
+    item=>{
     item.addEventListener('click', ()=>{
         hamburger.classList.toggle('active');
         mobileMenu.classList.toggle('active');  
     })
 })
 
-
+// aos animations
 
 AOS.init({
     duration: 2100,
   })
   
 
-  
+//   pre loader
 const fadeOut = ()=>{
     const loaderWrapper = document.querySelector('.wrapper');
     loaderWrapper.classList.add('fade');

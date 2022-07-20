@@ -44,28 +44,28 @@ a{
 
 .serv-back{
     background-image: url(./img/51363.jpg);
-
+    width: 100%;
 }
 
 
 
 .half-background{
-    /* width: 100%; */
-    /* background-color:#8fd3f4; */
     background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg);
-    /* background-image: radial-gradient(transparent,#8fd3f4,rgba(31,30,30,0.021)); */
+    width: 100%;
 }
 
 
 .con-bout{
     background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg);
+    width: 100%;
+
 }
 
-/* 
-.serv-back{
-    background-image: url(./img/website-background-design-guide-768x492.png);
 
-} */
+.cntact{
+    background-image:url(./img/stefanie-grunwald-animation.gif);
+    width: 100%;
+}
 
 
 
@@ -134,7 +134,7 @@ color: white ;
 padding: 15px;
 display: block;
 animation: shaked 2s;
-animation-iteration-count: infinite;
+animation-iteration-count: 3;
 }
 
 
@@ -190,8 +190,8 @@ justify-content: center;
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 8px double #8fd3f4;
-    animation: hamburger-bounce  1s ease infinite;
+    border: 5px double #8fd3f4;
+    animation: hamburger-bounce  4s ease infinite;
 }
 
 
@@ -677,8 +677,8 @@ transform: scale(1.1);
 #about .col-left{
     width: 250px;
     height: 360px;
-    animation: shakey 8s;
-    animation-iteration-count: infinite;
+    /* animation: shakey 8s;
+    animation-iteration-count: infinite; */
 }
 
 
@@ -787,7 +787,7 @@ z-index: -1;
 flex-direction:column;
 max-width: 1200px;
 margin: 0 auto;
-
+background: none;
 }
 
 
