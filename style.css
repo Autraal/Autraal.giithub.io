@@ -1072,6 +1072,10 @@ flex-direction: column;
     color: white;
 }
 
+.cntact{
+    display: none;
+}
+
 
 
 span{
