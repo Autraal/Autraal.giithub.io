@@ -23,6 +23,7 @@ html {
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior:smooth;
+  scroll-snap-type: mandatory;
 }
 
 
@@ -51,12 +52,14 @@ a{
 
 .half-background{
     background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg);
+    filter: drop-shadow();
     width: 100%;
 }
 
 
 .con-bout{
-    background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg);
+    /* background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg); */
+    background-image: url(./img/pexels-pixabay-531880.jpg);
     width: 100%;
 
 }
