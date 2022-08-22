@@ -59,14 +59,17 @@ a{
 
 .con-bout{
     /* background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg); */
-    background-image: url(./img/pexels-pixabay-531880.jpg);
+    /* background-image: url(./img/pexels-pixabay-531880.jpg); */
+    background: whitesmoke !important;
     width: 100%;
 
 }
 
 
 .cntact{
-    background-image:url(./img/stefanie-grunwald-animation.gif);
+    /* background-image:url(./img/stefanie-grunwald-animation.gif); */
+    background: whitesmoke !important;
+
     width: 100%;
 }
 
