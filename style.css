@@ -51,7 +51,9 @@ a{
 
 
 .half-background{
-    background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg);
+    /* background-image: url(./img/85f47802c9c9a2327a0b15576f850db2.jpg); */
+    background: whitesmoke !important;
+
     filter: drop-shadow();
     width: 100%;
 }
